@@ -7,7 +7,7 @@ resource "aws_instance" "example_instance" {
   instance_type = "t2.micro"
   key_name      = "DevOpsHint"
   tags = {
-    Name = "ExampleInstance"
+    Name = "Demos"
   }
 }
 
